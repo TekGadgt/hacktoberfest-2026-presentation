@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build and export outputs (reproducible; see README)
+dist/
+output/
+tmp/
+
+# Slidev / Vite caches
+.remote-assets/
+.vite-inspect/
+*.local
+
+# Logs and environment
+npm-debug.log*
+*.log
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+.idea/

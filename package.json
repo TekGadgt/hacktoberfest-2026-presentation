@@ -1,0 +1,22 @@
+{
+  "name": "hacktoberfest-hack-day-hampton-presentation",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export --output output/pdf/hacktoberfest-hack-day-hampton.pdf",
+    "export:png": "slidev export --format png --output tmp/pdfs/slides",
+    "runbook": "mkdir -p output/pdf && typst compile --input mode=comparison run-of-show.typ output/pdf/hacktoberfest-run-of-show-comparison.pdf && typst compile --input mode=full-panel run-of-show.typ output/pdf/hacktoberfest-run-of-show-full-panel.pdf && typst compile --input mode=build-priority run-of-show.typ output/pdf/hacktoberfest-run-of-show-build-priority.pdf",
+    "build:all": "npm run build && npm run export && npm run runbook"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.14.2",
+    "@slidev/theme-default": "^0.25.0",
+    "playwright-chromium": "^1.59.1"
+  },
+  "dependencies": {
+    "qrcode.vue": "^3.8.1"
+  }
+}
