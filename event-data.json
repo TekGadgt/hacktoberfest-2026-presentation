@@ -10,6 +10,7 @@
     "eventUrl": "https://events.mlh.com/events/14937-hacktoberfest-hack-day-hampton-x-revolutionva",
     "challengeUrl": "https://www.mlh.com/events/hacktoberfest-2026-in-the-757",
     "codeOfConductUrl": "https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md",
+    "rulesUrl": "https://github.com/MLH/mlh-policies/blob/main/standard-hackathon-rules.md",
     "handbookUrl": "https://hacktoberfest-handbook.mlh.com"
   },
   "hosts": [

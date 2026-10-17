@@ -349,6 +349,7 @@ loop: true
   <EventQr :value="$eventData.event.eventUrl" label="Registration and check-in" />
   <EventQr :value="$eventData.event.challengeUrl" label="Challenges and event details" />
   <EventQr :value="$eventData.event.codeOfConductUrl" label="MLH Code of Conduct" />
+  <EventQr :value="$eventData.event.rulesUrl" label="MLH Hackathon Rules" />
 </div>
 
 <div class="side-note" style="text-align:center">Submission access lives on the Challenges page while the window is open.</div>

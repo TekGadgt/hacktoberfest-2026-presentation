@@ -22,6 +22,7 @@ export interface EventData {
     eventUrl: string
     challengeUrl: string
     codeOfConductUrl: string
+    rulesUrl: string
     handbookUrl: string
   }
   hosts: Array<{ name: string; role: string; community: string; photo: string; url: string }>
