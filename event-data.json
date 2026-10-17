@@ -48,35 +48,54 @@
       "name": "Best Open-Source AI Project",
       "kind": "Official Hacktoberfest challenge",
       "summary": "Build an original project where open-source or open-weight AI does important work.",
-      "requirements": ["Publish the project in a public GitHub repository", "Include an open-source license", "Follow the Agent Skill Open Standard when submitting an agent skill"],
+      "requirements": [
+        "Publish the project in a public GitHub repository",
+        "Include an open-source license",
+        "Follow the Agent Skill Open Standard when submitting an agent skill"
+      ],
       "prize": "Winner DEV Badge and MLH swag bag for the winning team"
     },
     {
       "name": "Best Use of Gemma 4",
       "kind": "Partner challenge",
       "summary": "Build a focused multimodal tool with an open-weights model through the Gemini API.",
-      "requirements": ["Use Gemma 4 as an important part of the project", "Show a working experience with text, images, or both"],
+      "requirements": [
+        "Use Gemma 4 as an important part of the project",
+        "Show a working experience with text, images, or both"
+      ],
       "prize": "See the live challenge page for current prize details"
     },
     {
       "name": "Gloriously Overengineered",
       "kind": "Local challenge",
       "summary": "Use serious AI engineering to solve a delightfully tiny problem.",
-      "requirements": ["AI must do real work", "The demo must show how the system works", "The project should work live and commit to the bit"],
+      "requirements": [
+        "AI must do real work",
+        "The demo must show how the system works",
+        "The project should work live and commit to the bit"
+      ],
       "prize": "One-month 757 Makerspace memberships for up to three winning team members"
     },
     {
       "name": "Best AI Security Project",
       "kind": "Local challenge",
       "summary": "Use AI to protect people or make AI systems harder to misuse.",
-      "requirements": ["Address a specific security problem", "Test only systems you own or have permission to test", "Show the problem and the project response"],
+      "requirements": [
+        "Address a specific security problem",
+        "Test only systems you own or have permission to test",
+        "Show the problem and the project response"
+      ],
       "prize": "The AI Cybersecurity Handbook and Software Transparency"
     },
     {
       "name": "Best Community Impact Project",
       "kind": "Local challenge",
       "summary": "Build for a specific community and a problem that people already face.",
-      "requirements": ["Name the community and the problem", "Handle personal data responsibly", "Demo a realistic scenario from the user perspective"],
+      "requirements": [
+        "Name the community and the problem",
+        "Handle personal data responsibly",
+        "Demo a realistic scenario from the user perspective"
+      ],
       "prize": "Our Planet Powered by AI and The Equality Machine"
     }
   ],
@@ -85,40 +104,248 @@
     "mlhIncidentPhone": "+1 409 202 6060",
     "venueContact": "Venue owner on site",
     "emergencyContact": "Call 911",
-    "wifi": "TBD"
+    "wifi": "Name: 757_MakerSpace | Password: MakingTheFuture"
   },
   "schedule": {
     "shared": [
-      {"time":"9:00-9:30","activity":"Organizer setup","organizer":"Room, AV, signage, breakfast tables","owner":"Chazona + Ryan","cue":"Deck and projector check","dependency":"Venue access","status":"provisional"},
-      {"time":"9:30-10:00","activity":"Check-in opens","organizer":"OrganizerHQ check-in and breakfast ready","owner":"Chazona + Ryan (split)","cue":"Arrival slide","dependency":"Panera + Firehouse Coffee arrival","status":"provisional"},
-      {"time":"10:00-10:15","activity":"Arrival and breakfast","organizer":"Welcome attendees and resolve check-in issues","owner":"Hosts","cue":"Information loop","dependency":"OrganizerHQ","status":"confirmed"},
-      {"time":"10:15-10:35","activity":"Opening","organizer":"Hosts, schedule, safety, Code of Conduct","owner":"Chazona + Ryan","cue":"Opening slides","dependency":"MLH reporting details","status":"confirmed"},
-      {"time":"10:35-12:00","activity":"Project time","organizer":"Open submissions and help teams form","owner":"Hosts + mentors","cue":"Information loop","dependency":"Submission window","status":"provisional"},
-      {"time":"12:00-12:40","activity":"Lunch","organizer":"Pick up and stage food, announce dietary details","owner":"Ryan","cue":"Information loop","dependency":"Ryan's Mama Rosa's pickup","status":"confirmed"},
-      {"time":"12:40-1:00","activity":"Project time","organizer":"Mentoring and workshop reminder","owner":"Hosts + mentors","cue":"Information loop","dependency":"Wi-Fi","status":"provisional"},
-      {"time":"1:00-1:30","activity":"Decision-model workshop","organizer":"Chazona leads; Ryan covers the room","owner":"Chazona Baum","cue":"Workshop slide","dependency":"Workshop materials","status":"confirmed"},
-      {"time":"1:30-2:00","activity":"Hermes Agent workshop","organizer":"Introduce Lee and support questions","owner":"Lee Talley","cue":"Workshop slide","dependency":"Workshop materials","status":"confirmed"},
-      {"time":"2:00-2:10","activity":"Project time","organizer":"Mentoring and submission reminders","owner":"Hosts + mentors","cue":"Information loop","dependency":"Wi-Fi","status":"provisional"}
+      {
+        "time": "9:00-9:30",
+        "activity": "Organizer setup",
+        "organizer": "Room, AV, signage, breakfast tables",
+        "owner": "Chazona + Ryan",
+        "cue": "Deck and projector check",
+        "dependency": "Venue access",
+        "status": "provisional"
+      },
+      {
+        "time": "9:30-10:00",
+        "activity": "Check-in opens",
+        "organizer": "OrganizerHQ check-in and breakfast ready",
+        "owner": "Chazona + Ryan (split)",
+        "cue": "Arrival slide",
+        "dependency": "Panera + Firehouse Coffee arrival",
+        "status": "provisional"
+      },
+      {
+        "time": "10:00-10:15",
+        "activity": "Arrival and breakfast",
+        "organizer": "Welcome attendees and resolve check-in issues",
+        "owner": "Hosts",
+        "cue": "Information loop",
+        "dependency": "OrganizerHQ",
+        "status": "confirmed"
+      },
+      {
+        "time": "10:15-10:35",
+        "activity": "Opening",
+        "organizer": "Hosts, schedule, safety, Code of Conduct",
+        "owner": "Chazona + Ryan",
+        "cue": "Opening slides",
+        "dependency": "MLH reporting details",
+        "status": "confirmed"
+      },
+      {
+        "time": "10:35-12:00",
+        "activity": "Project time",
+        "organizer": "Open submissions and help teams form",
+        "owner": "Hosts + mentors",
+        "cue": "Information loop",
+        "dependency": "Submission window",
+        "status": "provisional"
+      },
+      {
+        "time": "12:00-12:40",
+        "activity": "Lunch",
+        "organizer": "Pick up and stage food, announce dietary details",
+        "owner": "Ryan",
+        "cue": "Information loop",
+        "dependency": "Ryan's Mama Rosa's pickup",
+        "status": "confirmed"
+      },
+      {
+        "time": "12:40-1:00",
+        "activity": "Project time",
+        "organizer": "Mentoring and workshop reminder",
+        "owner": "Hosts + mentors",
+        "cue": "Information loop",
+        "dependency": "Wi-Fi",
+        "status": "provisional"
+      },
+      {
+        "time": "1:00-1:30",
+        "activity": "Decision-model workshop",
+        "organizer": "Chazona leads; Ryan covers the room",
+        "owner": "Chazona Baum",
+        "cue": "Workshop slide",
+        "dependency": "Workshop materials",
+        "status": "confirmed"
+      },
+      {
+        "time": "1:30-2:00",
+        "activity": "Hermes Agent workshop",
+        "organizer": "Introduce Lee and support questions",
+        "owner": "Lee Talley",
+        "cue": "Workshop slide",
+        "dependency": "Workshop materials",
+        "status": "confirmed"
+      },
+      {
+        "time": "2:00-2:10",
+        "activity": "Project time",
+        "organizer": "Mentoring and submission reminders",
+        "owner": "Hosts + mentors",
+        "cue": "Information loop",
+        "dependency": "Wi-Fi",
+        "status": "provisional"
+      }
     ],
     "fullPanel": [
-      {"time":"2:10-2:30","activity":"Final project work","organizer":"Give ten-minute submission warning at 2:20","owner":"Hosts","cue":"Submissions closing slide","dependency":"OrganizerHQ","status":"provisional"},
-      {"time":"2:30","activity":"Submissions close","organizer":"Close window and verify unique projects","owner":"Ryan","cue":"Submissions closing slide","dependency":"Every eligible project submitted","status":"provisional"},
-      {"time":"2:35-2:50","activity":"Lightning demos","organizer":"Run equal, timed demonstrations","owner":"Chazona","cue":"Demos slide","dependency":"Final team count","status":"provisional"},
-      {"time":"2:50-3:00","activity":"Judging","organizer":"Keep results private, mark winners, verify gallery","owner":"Judges","cue":"Judging & awards slide","dependency":"Third judge leaves at 3","status":"provisional"},
-      {"time":"3:00-3:15","activity":"Awards and possible raffles","organizer":"Publish gallery, announce winners, take winner photos","owner":"Hosts","cue":"Judging & awards slide","dependency":"Raffle plan TBD","status":"provisional"},
-      {"time":"3:15-3:50","activity":"Social time","organizer":"Encourage demos, networking, and event photos","owner":"All organizers","cue":"Information loop","dependency":"Photo consent","status":"provisional"},
-      {"time":"3:50-4:00","activity":"Closing","organizer":"Thank partners and explain cleanup","owner":"Hosts","cue":"Closing slide","dependency":"None","status":"confirmed"},
-      {"time":"4:00-4:30","activity":"Cleanup","organizer":"Reset room, retain receipts, back up photos; screen against registration photo opt-outs before publishing","owner":"Organizers","cue":"Deck off","dependency":"Venue checklist","status":"provisional"}
+      {
+        "time": "2:10-2:30",
+        "activity": "Final project work",
+        "organizer": "Give ten-minute submission warning at 2:20",
+        "owner": "Hosts",
+        "cue": "Submissions closing slide",
+        "dependency": "OrganizerHQ",
+        "status": "provisional"
+      },
+      {
+        "time": "2:30",
+        "activity": "Submissions close",
+        "organizer": "Close window and verify unique projects",
+        "owner": "Ryan",
+        "cue": "Submissions closing slide",
+        "dependency": "Every eligible project submitted",
+        "status": "provisional"
+      },
+      {
+        "time": "2:35-2:50",
+        "activity": "Lightning demos",
+        "organizer": "Run equal, timed demonstrations",
+        "owner": "Chazona",
+        "cue": "Demos slide",
+        "dependency": "Final team count",
+        "status": "provisional"
+      },
+      {
+        "time": "2:50-3:00",
+        "activity": "Judging",
+        "organizer": "Keep results private, mark winners, verify gallery",
+        "owner": "Judges",
+        "cue": "Judging & awards slide",
+        "dependency": "Third judge leaves at 3",
+        "status": "provisional"
+      },
+      {
+        "time": "3:00-3:15",
+        "activity": "Awards and possible raffles",
+        "organizer": "Publish gallery, announce winners, take winner photos",
+        "owner": "Hosts",
+        "cue": "Judging & awards slide",
+        "dependency": "Raffle plan TBD",
+        "status": "provisional"
+      },
+      {
+        "time": "3:15-3:50",
+        "activity": "Social time",
+        "organizer": "Encourage demos, networking, and event photos",
+        "owner": "All organizers",
+        "cue": "Information loop",
+        "dependency": "Photo consent",
+        "status": "provisional"
+      },
+      {
+        "time": "3:50-4:00",
+        "activity": "Closing",
+        "organizer": "Thank partners and explain cleanup",
+        "owner": "Hosts",
+        "cue": "Closing slide",
+        "dependency": "None",
+        "status": "confirmed"
+      },
+      {
+        "time": "4:00-4:30",
+        "activity": "Cleanup",
+        "organizer": "Reset room, retain receipts, back up photos; screen against registration photo opt-outs before publishing",
+        "owner": "Organizers",
+        "cue": "Deck off",
+        "dependency": "Venue checklist",
+        "status": "provisional"
+      }
     ],
     "buildPriority": [
-      {"time":"2:10-2:40","activity":"Project time","organizer":"Mentor teams and give deadline reminders","owner":"Hosts + mentors","cue":"Information loop","dependency":"Wi-Fi","status":"provisional"},
-      {"time":"2:40-2:50","activity":"Submission check","organizer":"Find missing teams while submissions remain open","owner":"Ryan","cue":"Submissions closing slide","dependency":"OrganizerHQ","status":"provisional"},
-      {"time":"2:50","activity":"Submissions close","organizer":"Close window and verify unique projects","owner":"Ryan","cue":"Submissions closing slide","dependency":"Every eligible project submitted","status":"provisional"},
-      {"time":"2:55-3:25","activity":"Short demos","organizer":"Run equal, timed demonstrations","owner":"Chazona","cue":"Demos slide","dependency":"Final team count","status":"provisional"},
-      {"time":"3:25-3:40","activity":"Judging","organizer":"Mark winners and verify the gallery privately","owner":"Remaining judges","cue":"Judging & awards slide","dependency":"Panel changes after 3","status":"provisional"},
-      {"time":"3:40-3:55","activity":"Awards and closing","organizer":"Publish gallery, announce winners, thank partners","owner":"Hosts","cue":"Judging & awards slide","dependency":"Raffle plan TBD","status":"provisional"},
-      {"time":"3:55-4:00","activity":"Final photos","organizer":"Photograph winners and room before cleanup","owner":"Assigned late afternoon","cue":"Closing slide","dependency":"Photo consent","status":"provisional"},
-      {"time":"4:00-4:30","activity":"Cleanup","organizer":"Reset room, retain receipts, back up photos; screen against registration photo opt-outs before publishing","owner":"Organizers","cue":"Deck off","dependency":"Venue checklist","status":"provisional"}
+      {
+        "time": "2:10-2:40",
+        "activity": "Project time",
+        "organizer": "Mentor teams and give deadline reminders",
+        "owner": "Hosts + mentors",
+        "cue": "Information loop",
+        "dependency": "Wi-Fi",
+        "status": "provisional"
+      },
+      {
+        "time": "2:40-2:50",
+        "activity": "Submission check",
+        "organizer": "Find missing teams while submissions remain open",
+        "owner": "Ryan",
+        "cue": "Submissions closing slide",
+        "dependency": "OrganizerHQ",
+        "status": "provisional"
+      },
+      {
+        "time": "2:50",
+        "activity": "Submissions close",
+        "organizer": "Close window and verify unique projects",
+        "owner": "Ryan",
+        "cue": "Submissions closing slide",
+        "dependency": "Every eligible project submitted",
+        "status": "provisional"
+      },
+      {
+        "time": "2:55-3:25",
+        "activity": "Short demos",
+        "organizer": "Run equal, timed demonstrations",
+        "owner": "Chazona",
+        "cue": "Demos slide",
+        "dependency": "Final team count",
+        "status": "provisional"
+      },
+      {
+        "time": "3:25-3:40",
+        "activity": "Judging",
+        "organizer": "Mark winners and verify the gallery privately",
+        "owner": "Remaining judges",
+        "cue": "Judging & awards slide",
+        "dependency": "Panel changes after 3",
+        "status": "provisional"
+      },
+      {
+        "time": "3:40-3:55",
+        "activity": "Awards and closing",
+        "organizer": "Publish gallery, announce winners, thank partners",
+        "owner": "Hosts",
+        "cue": "Judging & awards slide",
+        "dependency": "Raffle plan TBD",
+        "status": "provisional"
+      },
+      {
+        "time": "3:55-4:00",
+        "activity": "Final photos",
+        "organizer": "Photograph winners and room before cleanup",
+        "owner": "Assigned late afternoon",
+        "cue": "Closing slide",
+        "dependency": "Photo consent",
+        "status": "provisional"
+      },
+      {
+        "time": "4:00-4:30",
+        "activity": "Cleanup",
+        "organizer": "Reset room, retain receipts, back up photos; screen against registration photo opt-outs before publishing",
+        "owner": "Organizers",
+        "cue": "Deck off",
+        "dependency": "Venue checklist",
+        "status": "provisional"
+      }
     ]
   }
 }
