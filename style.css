@@ -303,7 +303,20 @@
 
 .slidev-layout.video-slide { padding: 0; background: #000; }
 .slidev-layout.video-slide::after { display: none; }
-.hype-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; }
+/* Chrome stretches native video controls with the slide scale, pushing volume and fullscreen
+   off-screen. Size the video at screen resolution and undo the slide scale so controls render 1:1. */
+.hype-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% * var(--slidev-slide-scale, 1));
+  height: calc(100% * var(--slidev-slide-scale, 1));
+  max-width: none;
+  transform: scale(calc(1 / var(--slidev-slide-scale, 1)));
+  transform-origin: 0 0;
+  object-fit: contain;
+  background: #000;
+}
 
 .closing-qr.event-qr { position: absolute; top: 4rem; left: 30rem; width: auto; }
 
