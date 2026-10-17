@@ -57,8 +57,8 @@ Generated files are reproducible outputs. Edit the Slidev, Typst, CSS, Vue, and 
 ## Information-loop smoke test
 
 1. Run `npm run dev` and open presentation mode.
-2. From slide 1, press `a`; the deck should jump to slide 3 and show the loop-status badge.
-3. Wait 15 seconds; the deck should advance to slide 4.
+2. From slide 1, press `a`; the deck should jump to slide 4 and show the loop-status badge.
+3. Wait 15 seconds; the deck should advance to slide 5.
 4. Press an arrow key or click once; the badge should disappear and the deck should remain on the manually selected slide for longer than 15 seconds.
 5. Press `a` again to restart the loop. Press `a` once more to stop it.
 

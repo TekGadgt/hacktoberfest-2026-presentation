@@ -46,6 +46,19 @@ Source: https://www.mlh.com/events/hacktoberfest-2026-in-the-757
 -->
 
 ---
+class: video-slide
+---
+
+<SlidevVideo class="hype-video" autoplay autoreset="slide" controls :muted="$renderContext === 'presenter'">
+  <source src="/media/hacktoberfest-757-hype.mp4" type="video/mp4">
+</SlidevVideo>
+
+<!--
+Hype video (2:21). Plays automatically when this slide opens and rewinds when you leave it.
+It is muted in presenter view so the audio only comes from the audience window.
+-->
+
+---
 
 # Your hosts
 
